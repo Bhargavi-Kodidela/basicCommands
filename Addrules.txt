@@ -1,3 +1,5 @@
+Plans/Rules:
+
 configuration/clientsettings: 
 -----------------------------
 Request URL:http://10.33.229.108:8080/clientSettingsRule
@@ -99,5 +101,7 @@ configuration/tablelogging:
 Request URL:http://10.33.229.108:8080/tableLoggingRule
 
 Request:{"ruleID":"tblelogid","criticality":"VERY_HIGH","risk":{"typeKey":"logngnja","nameKey":"lksdd","descriptionKey":"nvjdfsiu"}}
+
+
 
 
