@@ -1,0 +1,24 @@
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/clientsettings/ClientSettingsRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/criticalobject/CriticalObjectRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/criticalprofileuser/CriticalProfileUserRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/defaultuserpwd/DefaultUserPwdRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/devaccess/DevAccessRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/forbiddenpwd/ForbiddenPwdRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/gateway/reginfo/GatewayRegInfoRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/gateway/registeredservers/GatewayRegisteredServersRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/gateway/secinfo/GatewaySecInfoRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/profileparameter/ProfileParameterRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/roleswithoneuser/RolesWithOneUserRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/sapsystemusage/SapSystemUsageRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/securityauditlog/SecurityAuditLogRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/sodconflict/SodConflictRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/control/tablelogging/TableLoggingRuleSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/ruleset/RuleSetSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/run/RunResultSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/run/RunResultSummarySpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/sap/SapSystemSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/sap/usersfilter/SapSystemSpec.groovy
+ create mode 100644 src/test/groovy/rahul/wikima4/mf3/user/UserSpec.groovy
+
+
+
