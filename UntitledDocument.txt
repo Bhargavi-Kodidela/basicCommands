@@ -1,0 +1,140 @@
+<h3><small>Add new Rule</small></h3>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <form name="addForm" novalidate>
+        <div class="container" >
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="ruleID" class="control-label">Rule ID</label></div>
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.ruleID.$touched && addForm.ruleID.$invalid }">
+            <input type="text" class="form-control" id="ruleID" name="ruleID" placeholder="Rule ID" ng-model="rules.newBean.ruleID" required>
+
+            <div class="help-block" ng-messages="addForm.ruleID.$error" ng-show="addForm.ruleID.$touched">
+                <div ng-messages-include="/templates/uimessages.html"></div>
+            </div>            
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="category" class="control-label">Category</label></div>
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.category.$touched && addForm.category.$invalid }">
+            <input type="text" class="form-control" name="category" placeholder="User" ng-model="rules.category.beanurl" disabled>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="criticality" class="control-label">Criticality</label></div>
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.criticality.$touched && addForm.criticality.$invalid }">
+			<select id="criticality" class="form-control input-sm" ng-model="rules.newBean.criticality" ng-options="s.name as s.id for s in rules.criticalities">
+		      </select>  
+			<div class="help-block" ng-messages="addForm.ruleID.$error" ng-show="addForm.ruleID.$touched">
+                <div ng-messages-include="/templates/uimessages.html"></div>
+            </div> 					       
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="riskType" class="control-label">Risk Type</label></div>
+            
+            <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.riskType.$touched && addForm.riskType.$invalid }">
+
+              <input type="text" class="form-control" id="riskType" name="riskType" placeholder="Risk Type" ng-model="rules.newBean.riskType" required>
+
+              <div class="help-block" ng-messages="addForm.riskType.$error" ng-show="addForm.riskType.$touched">
+                <div ng-messages-include="/templates/uimessages.html"></div>
+              </div>                 
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="riskName" class="control-label">Risk Name</label></div>
+          
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.riskName.$touched && addForm.riskName.$invalid }">
+
+            <input type="text" class="form-control" id="riskName" name="riskName" placeholder="Risk Name" ng-model="rules.newBean.riskName" required>
+
+            <div class="help-block" ng-messages="addForm.riskName.$error" ng-show="addForm.riskName.$touched">
+              <div ng-messages-include="/templates/uimessages.html"></div>
+            </div>                 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="descriptionKey" class="control-label">Risk Description Key</label></div>
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.descriptionKey.$touched && addForm.descriptionKey.$invalid }">
+		
+			<input type="text" class="form-control" id="descriptionKey" name="descriptionKey" placeholder="Risk Description Key" ng-model="rules.newBean.risk.descriptionKey" required>
+
+			<div class="help-block" ng-messages="addForm.descriptionKey.$error" ng-show="addForm.descriptionKey.$touched">
+                <div ng-messages-include="/templates/uimessages.html"></div>
+            </div> 					       
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="providedBy" class="control-label">Provided By</label></div>
+          
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.providedBy.$touched && addForm.providedBy.$invalid }">
+
+            <input type="text" class="form-control" id="providedBy" name="providedBy" placeholder="Provided By" ng-model="rules.newBean.providedBy">
+
+            <div class="help-block" ng-messages="addForm.providedBy.$error" ng-show="addForm.providedBy.$touched">
+              
+            </div>                 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="providedOwners" class="control-label">Provided Owners</label></div>
+          
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.providedOwners.$touched && addForm.providedOwners.$invalid }">
+
+            <input type="text" class="form-control" id="providedOwners" name="providedOwners" placeholder="Provided Owners" ng-model="rules.newBean.providedOwners">
+
+            <div class="help-block" ng-messages="addForm.providedOwners.$error" ng-show="addForm.providedOwners.$touched">
+              
+            </div>                 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="names" class="control-label">Name</label></div>
+          
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.names.$touched && addForm.names.$invalid }">
+
+            <input type="text" class="form-control" id="names" name="names" placeholder="Names" ng-model="rules.newBean.names">
+
+            <div class="help-block" ng-messages="addForm.names.$error" ng-show="addForm.names.$touched">
+              
+            </div>                 
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-lg-2 col-md-2 col-sm-3 col-xs-5 text-right"><label for="descriptions" class="control-label">Description</label></div>
+          
+          <div class="col col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-class="{ 'has-error': addForm.descriptions.$touched && addForm.descriptions.$invalid }">
+
+            <input type="text" class="form-control" id="descriptions" name="descriptions" placeholder="Descriptions" ng-model="rules.newBean.descriptions">
+
+            <div class="help-block" ng-messages="addForm.descriptions.$error" ng-show="addForm.descriptions.$touched">
+              
+            </div>                 
+          </div>
+        </div>
+
+<!-- Category specific -->
+	<ng-include src="'/templates/rules/add-'+rules.category.curl+'.html'"></ng-include>
+
+        <div class="row top-buffer-10">
+          <div class="col col-lg-4 col-md-5 col-sm-7 col-xs-11">
+            <button type="button" class="btn btn-primary btn-sm pull-right" ng-click="rules.saveRule()" ng-disabled="addForm.$invalid"><span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"> </span> Add</button>
+          </div>
+        </div>
+      </div>
+      </form>
+      </div>
+    </div>
+
