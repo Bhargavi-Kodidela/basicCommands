@@ -1,0 +1,103 @@
+configuration/clientsettings: 
+-----------------------------
+Request URL:http://10.33.229.108:8080/clientSettingsRule
+
+Request: {"ruleID":"lkaaw ids","criticality":"HIGH","risk":{"typeKey":"pskdh","nameKey":"gtyas","descriptionKey":"bsdtwed"},"clientType":"uddas"}
+
+compliance/criticalobject: 
+--------------------------
+Request URL:http://10.33.229.108:8080/criticalObjectRule
+
+Request:{"ruleID":"new id","criticality":"MEDIUM","risk":{"typeKey":"risk typess","nameKey":"risk namess","descriptionKey":"no disc"}}
+
+
+compliance/criticalprofileuser: 
+-------------------------------
+Request URL:http://10.33.229.108:8080/criticalProfileUserRule
+
+Request:{"ruleID":"profileid","criticality":"HIGH","risk":{"typeKey":"lkjass","nameKey":"pueww","descriptionKey":"desceew"}}
+
+
+configuration/defaultuserpwd: 
+-----------------------------
+Request URL:http://10.33.229.108:8080/defaultUserPwdRule
+
+Request:{"ruleID":"default id","criticality":"LOW","risk":{"typeKey":"riskyy","nameKey":"lssdaa","descriptionKey":"perufds"}}
+
+
+configuration/devaccess: 
+------------------------
+Request URL:http://10.33.229.108:8080/devAccessRule
+
+Request:{"ruleID":"dev id","criticality":"VERY_HIGH","risk":{"typeKey":"lkasda","nameKey":"mknas","descriptionKey":"teadaa"}}
+
+
+configuration/forbiddenpwd: 
+---------------------------
+Request URL:http://10.33.229.108:8080/forbiddenPwdRule
+
+Request:{"ruleID":"frddnid","criticality":"LOW","risk":{"typeKey":"plsjd","nameKey":"mnsdh","descriptionKey":"hjeda"}}
+
+
+configuration/gateway/reginfo: 
+------------------------------
+Request URL:http://10.33.229.108:8080/gatewayRegInfoRule
+
+Request:{"ruleID":"reginfoids","criticality":"VERY_HIGH","risk":{"typeKey":"regrisk typese","nameKey":"regsnamess","descriptionKey":"reg descripp"}}
+
+
+incident/gateway/rigisteredservers: 
+-----------------------------------
+Request URL:http://10.33.229.108:8080/gatewayRegisteredServersRule
+
+Request:{"ruleID":"regstdsvr id","criticality":"HIGH","risk":{"typeKey":"rgssvrss","nameKey":"pljsdf","descriptionKey":"klsdeqaa"}}
+
+
+configuration/gateway/secinfo: 
+------------------------------
+Request URL:http://10.33.229.108:8080/gatewaySecInfoRule
+
+Request:{"ruleID":"secinfoidd","criticality":"MEDIUM","risk":{"typeKey":"lmasc","nameKey":"ncasdc","descriptionKey":"pqwlasw"}}
+
+
+configuration/profileparameter: 
+-------------------------------
+Request URL:http://10.33.229.108:8080/profileParameterRule
+
+Request:{"ruleID":"profilepmter id","criticality":"LOW","risk":{"typeKey":"parmetsaw","nameKey":"pkalwid","descriptionKey":"njudhad"},"recommandedValue":"prhjbdhf jhb","parameterName":"tyghsdc"}
+
+
+compliance/roleswithoneuser: 
+----------------------------
+Request URL:http://10.33.229.108:8080/rolesWithOneUserRule
+
+Request:{"ruleID":"rolewtch id","criticality":"VERY_HIGH","risk":{"typeKey":"rolerisky skas","nameKey":"huifya","descriptionKey":"duyhdka"}}
+
+
+incident/sapsystemusage:
+------------------------
+Request URL:http://10.33.229.108:8080/sapSystemUsageRule
+
+Request:{"ruleID":"sapsysid","criticality":"HIGH","risk":{"typeKey":"ndjfhf","nameKey":"asbdb","descriptionKey":"descrpmd"},"transactionCode":"bchdgus"}
+
+
+incident/securityauditlog: 
+--------------------------
+Request URL:http://10.33.229.108:8080/securityAuditLogRule
+
+Request:{"ruleID":"sectaud id","criticality":"MEDIUM","risk":{"typeKey":"secriskas","nameKey":"secaudthng","descriptionKey":"seccauthngsa"},"auditCode":"aughtds"}
+
+
+compliance/sodconflicts: 
+------------------------
+Request URL:http://10.33.229.108:8080/sodConflictRule
+
+Request:{"ruleID":"sodsids","criticality":"MEDIUM","risk":{"typeKey":"nvdjfh","nameKey":"plxkja","descriptionKey":"nlasda"}}
+
+configuration/tablelogging: 
+---------------------------
+Request URL:http://10.33.229.108:8080/tableLoggingRule
+
+Request:{"ruleID":"tblelogid","criticality":"VERY_HIGH","risk":{"typeKey":"logngnja","nameKey":"lksdd","descriptionKey":"nvjdfsiu"}}
+
+
