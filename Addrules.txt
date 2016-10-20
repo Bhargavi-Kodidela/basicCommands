@@ -1,4 +1,5 @@
-mesaforte-ui
+mesaforte-ui:
+-------------
 Plans/Rules:
 
 configuration/clientsettings: 
